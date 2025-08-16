@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/my-react-app"
+    },
+    {
+      "path": "./libs/styled-system"
     }
   ]
 }
