@@ -4,5 +4,8 @@
   "private": true,
   "devDependencies": {
     "@pandacss/dev": "^1.0.1"
+  },
+  "dependencies": {
+    "@acme/styled-system": "0.0.1"
   }
 }
