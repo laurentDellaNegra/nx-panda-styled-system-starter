@@ -1,5 +1,8 @@
 {
   "name": "@acme/my-react-app",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@pandacss/dev": "^1.0.1"
+  }
 }
