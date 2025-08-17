@@ -6,6 +6,8 @@
     "@pandacss/dev": "^1.0.1"
   },
   "dependencies": {
-    "@acme/styled-system": "0.0.1"
+    "@acme/preset": "0.0.1",
+    "@acme/styled-system": "0.0.1",
+    "@acme/ui": "0.0.1"
   }
 }

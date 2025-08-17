@@ -5,4 +5,5 @@ export default defineConfig({
   presets: ['@pandacss/preset-panda', '@acme/preset'],
   // The output directory for your css system
   outdir: 'dist',
+  jsxFramework: 'react',
 });
