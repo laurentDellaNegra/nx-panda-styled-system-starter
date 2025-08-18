@@ -12,5 +12,9 @@
     "types": ["node", "vite/client"]
   },
   "include": ["src/**/*.ts"],
-  "references": []
+  "references": [
+    {
+      "path": "../preset/tsconfig.lib.json"
+    }
+  ]
 }

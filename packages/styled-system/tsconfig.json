@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../preset"
+    },
+    {
       "path": "./tsconfig.lib.json"
     }
   ]
