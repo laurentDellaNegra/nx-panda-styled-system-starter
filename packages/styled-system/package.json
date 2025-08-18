@@ -51,7 +51,9 @@
     }
   },
   "dependencies": {
-    "@pandacss/dev": "^1.0.1",
+    "@pandacss/dev": "^1.0.1"
+  },
+  "devDependencies": {
     "@acme/preset": "0.0.1"
   }
 }
