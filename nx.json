@@ -28,8 +28,7 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      },
-      "exclude": ["packages/styled-system/*"]
+      }
     },
     {
       "plugin": "@nx/react/router-plugin",
