@@ -28,7 +28,8 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": ["packages/styled-system/*"]
     },
     {
       "plugin": "@nx/react/router-plugin",
@@ -68,6 +69,15 @@
         "openTargetName": "open-cypress",
         "componentTestingTargetName": "component-test",
         "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["packages/styled-system/*"],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],

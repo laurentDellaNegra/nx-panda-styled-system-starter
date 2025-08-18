@@ -13,10 +13,10 @@
       "path": "./packages/preset"
     },
     {
-      "path": "./packages/styled-system"
+      "path": "./packages/ui"
     },
     {
-      "path": "./packages/ui"
+      "path": "./packages/styled-system"
     }
   ]
 }

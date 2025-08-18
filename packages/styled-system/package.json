@@ -3,21 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "scripts": {
-    "prepare": "panda codegen --clean",
-    "dev": "panda codegen --watch"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
-    ".": {
-      "development": "./src/index.ts",
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    },
     "./css": {
       "types": "./dist/css/index.d.ts",
       "require": "./dist/css/index.mjs",
@@ -48,6 +35,31 @@
       "types": "./dist/recipes/index.d.ts",
       "require": "./dist/recipes/index.mjs",
       "import": "./dist/recipes/index.mjs"
+    }
+  },
+  "nx": {
+    "targets": {
+      "prepare": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "panda codegen --clean",
+          "cwd": "packages/styled-system"
+        }
+      },
+      "dev": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "panda codegen --watch",
+          "cwd": "packages/styled-system"
+        }
+      },
+      "build": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "panda codegen",
+          "cwd": "packages/styled-system"
+        }
+      }
     }
   },
   "dependencies": {
