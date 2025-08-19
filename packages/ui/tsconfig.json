@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../styled-system"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {
