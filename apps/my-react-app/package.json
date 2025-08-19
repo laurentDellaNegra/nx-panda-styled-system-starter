@@ -8,6 +8,7 @@
   "dependencies": {
     "@acme/preset": "0.0.1",
     "@acme/styled-system": "0.0.1",
-    "@acme/ui": "0.0.1"
+    "@acme/ui": "0.0.1",
+    "@ark-ui/react": "^3.18.1"
   }
 }

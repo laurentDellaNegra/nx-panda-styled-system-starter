@@ -1,5 +1,6 @@
 import { definePreset } from '@pandacss/dev';
 import { alertRecipe } from './alert.js';
+import { buttonRecipe } from './button.js';
 
 const preset = definePreset({
   name: 'preset',
@@ -25,6 +26,9 @@ const preset = definePreset({
             },
           },
         },
+      },
+      recipes: {
+        button: buttonRecipe,
       },
       slotRecipes: {
         alert: alertRecipe,
